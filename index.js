@@ -17,7 +17,7 @@ app.get("/edit", async (req, res) => {
     const randomEdit = edits[randomIndex];
 
     const response = await axios.get(
-      `https://tiktok-searc-api-video.onrender.com/tiktok/searchvideo?keywords=${encodeURIComponent(
+      `https://drab-gray-bat-tutu.cyclic.app/tiktok/searchvideo?keywords=${encodeURIComponent(
         randomEdit,
       )}`,
       {
